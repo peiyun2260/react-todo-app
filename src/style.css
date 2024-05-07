@@ -1,0 +1,80 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background:	#F2E6E6;
+}
+
+.center-div {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: #AD5A5A;
+  border-radius: 3px;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+}
+
+.new-item-form {
+  width: 184px;
+  margin: auto;
+}
+
+.new-item {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #804040;
+  width: 160px;
+  height: 32px;
+  padding: 2px 16px;
+  display: block;
+  margin: 12px;
+  color: #804040;
+}
+
+.item-btn {
+  border-radius: 20px;
+  border: 1px solid #804040; /* 按鈕外誆顏色 */
+  background-color: #D9B3B3;	
+  color: #FFFFFF; /* 字體顏色 */
+  font-size: 12px;
+  width: 160px;
+  height: 32px;
+  padding: 2px 16px;
+  display: block;
+  margin: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* 代辦事項清單 */
+.list {
+  padding-left: 124px;
+  color: #d6a1a1;
+  font-weight: bold;
+}
+
+/* 刪除icon */
+.trash-icon {
+  font-size: 14px;
+  color:#EBD6D6;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.trash-icon:hover {
+  color: rgb(71, 67, 90);
+}
